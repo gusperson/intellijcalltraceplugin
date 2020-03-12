@@ -62,7 +62,7 @@ class Factory implements ToolWindowFactory {
 
         ContentFactory contentFactory = ContentFactory.SERVICE.getInstance();
         Content content = contentFactory.createContent(textLabel,"", false);
-        toolWindow.getContentManager().addContent(content);
+//        toolWindow.getContentManager().addContent(content);
     }
 
 
